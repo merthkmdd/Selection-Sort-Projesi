@@ -1,0 +1,35 @@
+Proje 1
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Big-O gösterimini yazınız.
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+[22,27,16,2,18,6] -> Insertion Sort : Elemanları araya ekleyerek sıralar. ikinci elemandan başlayarak elemanın kendinden önceki elemanlar ile karşılaştırarak büyük olan elemanları sağa doğru sıralar ve işlemleri tekrar eder.
+[22,27,16,2,18,6]
+-En küçük olan sayı seçilir("2") ve en baştakiyle yeri değiştirilir.
+-[2,27,16,22,18,6]
+-İkinci en küçük sayıda seçilir("6) ve 2. sırayla yer değiştirir.
+-[2,6,16,22,18,27]
+-Diğer tüm elemanlar sırası ile büyük sayıları sağ tarafa atarak küçük elemanları solda sıralı şekilde sıralar.
+-[2,6,16,18,22,27]
+-Big-O gösterimi : n+(n-1)+(n-2)+..+.= n*(n+1)/2
+=n^2+n/2
+Big O(n^2)
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+-"Aradığımız sayının ortada olması durumu, Average case."
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+1-[2,3,5,8,7,9,4,15,6] en küçük sayıyı bulur ve dizinin başındakşii sayı ile yer değiştirir (7 sayısını bulduk ve en küçük sayı:2 yer değiştirdik.9
+2-[2,3,5,8,7,9,4,15,6] ikinci sayımız ise 3 ve 2den sonraki büyük sayı 3 olduğu için bir sonraki sayıya bakarız.
+3-[2,3,4,8,7,9,5,15,6] 3.sayımız 5 ile diğer 3den sonraki sayı 4 yer değişimi sağladık ve sırasıya 2,3,4.
+4-[2,3,4,5,7,9,8,15,6] 4.sayımız dan sonraki değer dizi içerisindeki en küçük 4den büyük olan sayı 5 i 8 ile yer değiştiriyoruz.

@@ -27,7 +27,7 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
-[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız
 
 1-[2,3,5,8,7,9,4,15,6] en küçük sayıyı bulur ve dizinin başındakşii sayı ile yer değiştirir (7 sayısını bulduk ve en küçük sayı:2 yer değiştirdik.9
 2-[2,3,5,8,7,9,4,15,6] ikinci sayımız ise 3 ve 2den sonraki büyük sayı 3 olduğu için bir sonraki sayıya bakarız.
